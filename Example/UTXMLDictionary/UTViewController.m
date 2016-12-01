@@ -7,6 +7,7 @@
 //
 
 #import "UTViewController.h"
+#import "UTXMLDictionary.h"
 
 @interface UTViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSDictionary *dict = [UTXMLDictionary dictionaryFromXMLFile:@"demo"];
+    NSLog(@"%@",dict);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

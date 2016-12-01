@@ -1,0 +1,19 @@
+PODS:
+  - TBXML (1.5)
+  - UTXMLDictionary (0.1.0):
+    - TBXML
+
+DEPENDENCIES:
+  - UTXMLDictionary (from `../`)
+
+EXTERNAL SOURCES:
+  UTXMLDictionary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBXML: 9f9dadb239f2f2af1dadb87fe43a0ce6e479379a
+  UTXMLDictionary: 54d88f1e7aa40862215a0f976b2fa073e5b1165d
+
+PODFILE CHECKSUM: 2d71d52063d3acd45517803f69903ca47ce430c3
+
+COCOAPODS: 1.1.1

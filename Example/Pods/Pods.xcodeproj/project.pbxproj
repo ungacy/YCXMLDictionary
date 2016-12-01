@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26582E74DF5A15ABFB9D0FB6C18A38FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992088CDDBB0D82E5B5C918E3521EDA5 /* Foundation.framework */; };
+		26A85274D91CD53ED65E5473D564450E /* UTXMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F3C8BA959AACC77D7BB83E9601276B /* UTXMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BBEA381C08D059E6E58FA415E724CCA /* Pods-UTXMLDictionary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4717483F9B44FFC8BFA4919AAD211 /* Pods-UTXMLDictionary_Example-dummy.m */; };
+		3E15144319DC505E66E0421FF91DB48E /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C99C56D896AEFC7BF645A6E1223D45A /* TBXML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		404E8398D45F533345809DBBE9096505 /* UTXMLDictionary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA0DA8C585B7C78180FCEB0E57D44C5 /* UTXMLDictionary-dummy.m */; };
+		53D212E5FAEAC562DA70482923D0932B /* TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E58932BC54E8BC7007B433D211C8AC34 /* TBXML-dummy.m */; };
+		62B59A650858BB111F69074F6CC560EA /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC6A2364A0151F0C4746083EA08EDFA /* TBXML+Compression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6470E1DCD36CB3B933B9A81C6871E72D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992088CDDBB0D82E5B5C918E3521EDA5 /* Foundation.framework */; };
+		7A08C71739C25904B09E11664FB635D9 /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FFAB83C3D35BB15CEA6D6EDEA5328C /* TBXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1A12441E681B049DBFD515794F4775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992088CDDBB0D82E5B5C918E3521EDA5 /* Foundation.framework */; };
+		8EECFDFA2675729EAD7B7BABD9CF7D08 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5F24A3D90BD2A0BA6FE5FD0FB1C579 /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93F586A93C25A965AC554A55A4C7E0B0 /* TBXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A46FDF1B50CEB8AA8CAB745BEBFC879 /* TBXML.framework */; };
+		9D72C0BE0F388C5B2BAF26643F3E750F /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = F10BBEDF05E5CCA7E4FDF0CE81BCB8EB /* TBXML+HTTP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B938F9A699A7C6851F0B7B6CDD59ED93 /* Pods-UTXMLDictionary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8426C7C9F8E2985D03C7550E478CC4C8 /* Pods-UTXMLDictionary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF39B9D018173F3D6BDB92F9CF19143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992088CDDBB0D82E5B5C918E3521EDA5 /* Foundation.framework */; };
+		C206E765F73D0B131FDAE68C269F84BA /* UTXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A3C357602BF488861B854DADD97057 /* UTXMLDictionary.m */; };
+		D0C31E95A216DBF11EC416EF687EBB1C /* Pods-UTXMLDictionary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDA8C0924496D72E366F64BDDAC7465 /* Pods-UTXMLDictionary_Tests-dummy.m */; };
+		D384FB83348BABD4A4338CBEA3C38365 /* UTXMLDictionary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3DF46B9D928B0956D0E287D600ED0B /* UTXMLDictionary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D42C06894C169E1D35CF7DAF7AD09A41 /* Pods-UTXMLDictionary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 079A8FD99C156C98A1B86CC04EDC78BB /* Pods-UTXMLDictionary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F041E9B9DA2E203BA3481635B0270EB4 /* TBXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC0471D750B1C1DED77ED88D7F503C5 /* TBXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8F0227B1A5BC255A49CF051013273E0 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B504CD93C6477DA53CA27FCDFD4C43D /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9B2CA771FB472AB9E2D253724629D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F2C960C50D2A1B91367F158EE9359D;
+			remoteInfo = TBXML;
+		};
+		4EA90263037869D51D4FFE7DECF6F2BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9FF604222F8313839B49DBEC5B25DFA;
+			remoteInfo = UTXMLDictionary;
+		};
+		932DC635C1408FCFABC9945209EA9375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37F2C960C50D2A1B91367F158EE9359D;
+			remoteInfo = TBXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0569E9FD5C2DAC5A3F86A8689D9A98BB /* UTXMLDictionary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UTXMLDictionary.modulemap; sourceTree = "<group>"; };
+		06D2FC7BA50866E5DC318E71AD3AC05B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		079A8FD99C156C98A1B86CC04EDC78BB /* Pods-UTXMLDictionary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UTXMLDictionary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		100FA7F07473C7028119D4687675078E /* UTXMLDictionary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UTXMLDictionary.xcconfig; sourceTree = "<group>"; };
+		2FD1969DDBCCF82307DDE2C141897EA7 /* Pods-UTXMLDictionary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTXMLDictionary_Example-resources.sh"; sourceTree = "<group>"; };
+		30A3C357602BF488861B854DADD97057 /* UTXMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UTXMLDictionary.m; sourceTree = "<group>"; };
+		39426FA0C7A51F82BF0887080B44A1A3 /* UTXMLDictionary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UTXMLDictionary-prefix.pch"; sourceTree = "<group>"; };
+		3B504CD93C6477DA53CA27FCDFD4C43D /* TBXML+Compression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+Compression.m"; path = "TBXML-Code/TBXML+Compression.m"; sourceTree = "<group>"; };
+		3FFE368B3500B5AF213611BC60C3486D /* Pods-UTXMLDictionary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTXMLDictionary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		410F5DD0180AB7B05FF57CE4AEAE8A4C /* TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBXML.xcconfig; sourceTree = "<group>"; };
+		43C89B2F264E0B11BBFCF1528F16CB3D /* Pods-UTXMLDictionary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTXMLDictionary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		48F3C8BA959AACC77D7BB83E9601276B /* UTXMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UTXMLDictionary.h; sourceTree = "<group>"; };
+		4AF4717483F9B44FFC8BFA4919AAD211 /* Pods-UTXMLDictionary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UTXMLDictionary_Example-dummy.m"; sourceTree = "<group>"; };
+		54E7BC33ED551ED7EF2AD6BB5A9FBFEB /* Pods-UTXMLDictionary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTXMLDictionary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		555F6C9D9C99F3DF52BD48212663C04A /* TBXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TBXML.framework; path = TBXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F9966647EEF08BDDD5425B0CC8AD25 /* Pods-UTXMLDictionary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTXMLDictionary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6A46FDF1B50CEB8AA8CAB745BEBFC879 /* TBXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TBXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC0471D750B1C1DED77ED88D7F503C5 /* TBXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBXML-umbrella.h"; sourceTree = "<group>"; };
+		7E017FC76B2A18968A1C467B0DEB1B63 /* Pods-UTXMLDictionary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UTXMLDictionary_Tests.modulemap"; sourceTree = "<group>"; };
+		8426C7C9F8E2985D03C7550E478CC4C8 /* Pods-UTXMLDictionary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UTXMLDictionary_Example-umbrella.h"; sourceTree = "<group>"; };
+		862E262437BC647031217F5B333A6C9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FFAB83C3D35BB15CEA6D6EDEA5328C /* TBXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = "TBXML-Headers/TBXML.h"; sourceTree = "<group>"; };
+		8C99C56D896AEFC7BF645A6E1223D45A /* TBXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		992088CDDBB0D82E5B5C918E3521EDA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9EC6A2364A0151F0C4746083EA08EDFA /* TBXML+Compression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+Compression.h"; path = "TBXML-Headers/TBXML+Compression.h"; sourceTree = "<group>"; };
+		A25F94BD8F9176828D1FECEDEAF8EBA2 /* Pods-UTXMLDictionary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UTXMLDictionary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A70F546DDD4A4A5FE7CEE854E2E42477 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3DF46B9D928B0956D0E287D600ED0B /* UTXMLDictionary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UTXMLDictionary-umbrella.h"; sourceTree = "<group>"; };
+		AD7E6687913259EF7208FB3D1911188E /* Pods_UTXMLDictionary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UTXMLDictionary_Example.framework; path = "Pods-UTXMLDictionary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0EF002B5E631539D0F4E324A5F740D9 /* Pods-UTXMLDictionary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UTXMLDictionary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B94CDB9413C4471F101B3677DE4E9F72 /* Pods-UTXMLDictionary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UTXMLDictionary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA0DA8C585B7C78180FCEB0E57D44C5 /* UTXMLDictionary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UTXMLDictionary-dummy.m"; sourceTree = "<group>"; };
+		CDDA8C0924496D72E366F64BDDAC7465 /* Pods-UTXMLDictionary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UTXMLDictionary_Tests-dummy.m"; sourceTree = "<group>"; };
+		DAE60B3918FDCAEFE7464E4A4E7A530F /* Pods-UTXMLDictionary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UTXMLDictionary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC2B8534ECB174A87A4D615D2A3BD210 /* Pods_UTXMLDictionary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UTXMLDictionary_Tests.framework; path = "Pods-UTXMLDictionary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC524544E96C7D2E26FC79DCF9372BDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E12B42BA5348780C8490F69C766E91D7 /* Pods-UTXMLDictionary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UTXMLDictionary_Example.modulemap"; sourceTree = "<group>"; };
+		E19E34CCF4E05E912E1EA3343F5CDF88 /* Pods-UTXMLDictionary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTXMLDictionary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E58932BC54E8BC7007B433D211C8AC34 /* TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBXML-dummy.m"; sourceTree = "<group>"; };
+		EB5F24A3D90BD2A0BA6FE5FD0FB1C579 /* TBXML+HTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+HTTP.m"; path = "TBXML-Code/TBXML+HTTP.m"; sourceTree = "<group>"; };
+		ED6303821E42EECE41957183E201E21E /* Pods-UTXMLDictionary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UTXMLDictionary_Tests-resources.sh"; sourceTree = "<group>"; };
+		F10BBEDF05E5CCA7E4FDF0CE81BCB8EB /* TBXML+HTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+HTTP.h"; path = "TBXML-Headers/TBXML+HTTP.h"; sourceTree = "<group>"; };
+		F7AAE84432FD88B57B3250BE18238817 /* Pods-UTXMLDictionary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UTXMLDictionary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC8E0C400443DF3591511402D4DFDFCA /* TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBXML-prefix.pch"; sourceTree = "<group>"; };
+		FEED76E4D18C2FE27D871AF41CBC5415 /* UTXMLDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UTXMLDictionary.framework; path = UTXMLDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF11BCAD671FCE5AA9A4BED8FC4953F0 /* TBXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TBXML.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C750FCEDC855BB6BF8CD382D8AAE24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26582E74DF5A15ABFB9D0FB6C18A38FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E9ECDA9245A010A73AA259DF7E5AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1A12441E681B049DBFD515794F4775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC811B19F7400A3C6A3D20158DCE1B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6470E1DCD36CB3B933B9A81C6871E72D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D869AE78C4368A7C956BA55942224B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF39B9D018173F3D6BDB92F9CF19143 /* Foundation.framework in Frameworks */,
+				93F586A93C25A965AC554A55A4C7E0B0 /* TBXML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EEA6E1EDFBFE6F0FF8C9195F7AEA511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7E6687913259EF7208FB3D1911188E /* Pods_UTXMLDictionary_Example.framework */,
+				DC2B8534ECB174A87A4D615D2A3BD210 /* Pods_UTXMLDictionary_Tests.framework */,
+				555F6C9D9C99F3DF52BD48212663C04A /* TBXML.framework */,
+				FEED76E4D18C2FE27D871AF41CBC5415 /* UTXMLDictionary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD1E0EB4819FA9EFAA50E0C7F6280D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACB314821D2FDED5AA17CF6EC490616 /* Pods-UTXMLDictionary_Example */,
+				6FFFB3E0FA46D16BE1FF55C688332182 /* Pods-UTXMLDictionary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DE894E1759AEE0AC6227F12C186CD68 /* UTXMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				54E8F2FB5DD4ED4F839A4DFBB8AAA279 /* Classes */,
+			);
+			name = UTXMLDictionary;
+			path = UTXMLDictionary;
+			sourceTree = "<group>";
+		};
+		54E8F2FB5DD4ED4F839A4DFBB8AAA279 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48F3C8BA959AACC77D7BB83E9601276B /* UTXMLDictionary.h */,
+				30A3C357602BF488861B854DADD97057 /* UTXMLDictionary.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6E5B8250ED65775FEE0164ED8914E9FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D2FC7BA50866E5DC318E71AD3AC05B /* Info.plist */,
+				0569E9FD5C2DAC5A3F86A8689D9A98BB /* UTXMLDictionary.modulemap */,
+				100FA7F07473C7028119D4687675078E /* UTXMLDictionary.xcconfig */,
+				BDA0DA8C585B7C78180FCEB0E57D44C5 /* UTXMLDictionary-dummy.m */,
+				39426FA0C7A51F82BF0887080B44A1A3 /* UTXMLDictionary-prefix.pch */,
+				AB3DF46B9D928B0956D0E287D600ED0B /* UTXMLDictionary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UTXMLDictionary";
+			sourceTree = "<group>";
+		};
+		6FCFB92BCE7778EE1275D0AC31FE02B4 /* UTXMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				6E5B8250ED65775FEE0164ED8914E9FC /* Support Files */,
+				2DE894E1759AEE0AC6227F12C186CD68 /* UTXMLDictionary */,
+			);
+			name = UTXMLDictionary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6FFFB3E0FA46D16BE1FF55C688332182 /* Pods-UTXMLDictionary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC524544E96C7D2E26FC79DCF9372BDD /* Info.plist */,
+				7E017FC76B2A18968A1C467B0DEB1B63 /* Pods-UTXMLDictionary_Tests.modulemap */,
+				F7AAE84432FD88B57B3250BE18238817 /* Pods-UTXMLDictionary_Tests-acknowledgements.markdown */,
+				A25F94BD8F9176828D1FECEDEAF8EBA2 /* Pods-UTXMLDictionary_Tests-acknowledgements.plist */,
+				CDDA8C0924496D72E366F64BDDAC7465 /* Pods-UTXMLDictionary_Tests-dummy.m */,
+				64F9966647EEF08BDDD5425B0CC8AD25 /* Pods-UTXMLDictionary_Tests-frameworks.sh */,
+				ED6303821E42EECE41957183E201E21E /* Pods-UTXMLDictionary_Tests-resources.sh */,
+				079A8FD99C156C98A1B86CC04EDC78BB /* Pods-UTXMLDictionary_Tests-umbrella.h */,
+				43C89B2F264E0B11BBFCF1528F16CB3D /* Pods-UTXMLDictionary_Tests.debug.xcconfig */,
+				3FFE368B3500B5AF213611BC60C3486D /* Pods-UTXMLDictionary_Tests.release.xcconfig */,
+			);
+			name = "Pods-UTXMLDictionary_Tests";
+			path = "Target Support Files/Pods-UTXMLDictionary_Tests";
+			sourceTree = "<group>";
+		};
+		74FE9350F20F6B3B1268D608EB82FA7B /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				89FFAB83C3D35BB15CEA6D6EDEA5328C /* TBXML.h */,
+				8C99C56D896AEFC7BF645A6E1223D45A /* TBXML.m */,
+				9EC6A2364A0151F0C4746083EA08EDFA /* TBXML+Compression.h */,
+				3B504CD93C6477DA53CA27FCDFD4C43D /* TBXML+Compression.m */,
+				F10BBEDF05E5CCA7E4FDF0CE81BCB8EB /* TBXML+HTTP.h */,
+				EB5F24A3D90BD2A0BA6FE5FD0FB1C579 /* TBXML+HTTP.m */,
+				B9647444E7BF20B4342883A8398D6AD1 /* Support Files */,
+			);
+			name = TBXML;
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		7ACB314821D2FDED5AA17CF6EC490616 /* Pods-UTXMLDictionary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				862E262437BC647031217F5B333A6C9F /* Info.plist */,
+				E12B42BA5348780C8490F69C766E91D7 /* Pods-UTXMLDictionary_Example.modulemap */,
+				DAE60B3918FDCAEFE7464E4A4E7A530F /* Pods-UTXMLDictionary_Example-acknowledgements.markdown */,
+				B0EF002B5E631539D0F4E324A5F740D9 /* Pods-UTXMLDictionary_Example-acknowledgements.plist */,
+				4AF4717483F9B44FFC8BFA4919AAD211 /* Pods-UTXMLDictionary_Example-dummy.m */,
+				E19E34CCF4E05E912E1EA3343F5CDF88 /* Pods-UTXMLDictionary_Example-frameworks.sh */,
+				2FD1969DDBCCF82307DDE2C141897EA7 /* Pods-UTXMLDictionary_Example-resources.sh */,
+				8426C7C9F8E2985D03C7550E478CC4C8 /* Pods-UTXMLDictionary_Example-umbrella.h */,
+				B94CDB9413C4471F101B3677DE4E9F72 /* Pods-UTXMLDictionary_Example.debug.xcconfig */,
+				54E7BC33ED551ED7EF2AD6BB5A9FBFEB /* Pods-UTXMLDictionary_Example.release.xcconfig */,
+			);
+			name = "Pods-UTXMLDictionary_Example";
+			path = "Target Support Files/Pods-UTXMLDictionary_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E5F25416A94CC086417BAAED535CC6CD /* Development Pods */,
+				9ED84DFABEECB968A1F732EB7F442A98 /* Frameworks */,
+				BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */,
+				0EEA6E1EDFBFE6F0FF8C9195F7AEA511 /* Products */,
+				1BD1E0EB4819FA9EFAA50E0C7F6280D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9ED84DFABEECB968A1F732EB7F442A98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A46FDF1B50CEB8AA8CAB745BEBFC879 /* TBXML.framework */,
+				F7ADC896BF39C471BE51E323AFE94338 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9647444E7BF20B4342883A8398D6AD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A70F546DDD4A4A5FE7CEE854E2E42477 /* Info.plist */,
+				FF11BCAD671FCE5AA9A4BED8FC4953F0 /* TBXML.modulemap */,
+				410F5DD0180AB7B05FF57CE4AEAE8A4C /* TBXML.xcconfig */,
+				E58932BC54E8BC7007B433D211C8AC34 /* TBXML-dummy.m */,
+				FC8E0C400443DF3591511402D4DFDFCA /* TBXML-prefix.pch */,
+				6AC0471D750B1C1DED77ED88D7F503C5 /* TBXML-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TBXML";
+			sourceTree = "<group>";
+		};
+		BCDB7CBC6396332C2BDBA0C784AE6FFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74FE9350F20F6B3B1268D608EB82FA7B /* TBXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5F25416A94CC086417BAAED535CC6CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FCFB92BCE7778EE1275D0AC31FE02B4 /* UTXMLDictionary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F7ADC896BF39C471BE51E323AFE94338 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				992088CDDBB0D82E5B5C918E3521EDA5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15BB2551FA032B837EA42255E28520A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B938F9A699A7C6851F0B7B6CDD59ED93 /* Pods-UTXMLDictionary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6FE4DC8ECF8C9FB06AC091A6C2FC0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D384FB83348BABD4A4338CBEA3C38365 /* UTXMLDictionary-umbrella.h in Headers */,
+				26A85274D91CD53ED65E5473D564450E /* UTXMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F63A251B0DA043D3C51FADC0AF5851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42C06894C169E1D35CF7DAF7AD09A41 /* Pods-UTXMLDictionary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBE4F3F53B0E94749F6AF805726FC6DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B59A650858BB111F69074F6CC560EA /* TBXML+Compression.h in Headers */,
+				9D72C0BE0F388C5B2BAF26643F3E750F /* TBXML+HTTP.h in Headers */,
+				F041E9B9DA2E203BA3481635B0270EB4 /* TBXML-umbrella.h in Headers */,
+				7A08C71739C25904B09E11664FB635D9 /* TBXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05E6F7DECA142F5B0C0F7FA0887B369B /* Pods-UTXMLDictionary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688A7AB97092F5CB57C55C5B12FD222E /* Build configuration list for PBXNativeTarget "Pods-UTXMLDictionary_Example" */;
+			buildPhases = (
+				82443EA477F1F6AC5CCF6020FB9912AE /* Sources */,
+				0C750FCEDC855BB6BF8CD382D8AAE24D /* Frameworks */,
+				15BB2551FA032B837EA42255E28520A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBF7FE3A066AD504D84415F56B5FD96F /* PBXTargetDependency */,
+				85BB1F621812EB25BAEF946567D7BFC1 /* PBXTargetDependency */,
+			);
+			name = "Pods-UTXMLDictionary_Example";
+			productName = "Pods-UTXMLDictionary_Example";
+			productReference = AD7E6687913259EF7208FB3D1911188E /* Pods_UTXMLDictionary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19A13410D58371EC4740D3B077CB1902 /* Pods-UTXMLDictionary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F61142517E7DA712AA5714B92C9880B /* Build configuration list for PBXNativeTarget "Pods-UTXMLDictionary_Tests" */;
+			buildPhases = (
+				C50E3F4427D31D8A7CD38C62F667390B /* Sources */,
+				CC811B19F7400A3C6A3D20158DCE1B29 /* Frameworks */,
+				82F63A251B0DA043D3C51FADC0AF5851 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UTXMLDictionary_Tests";
+			productName = "Pods-UTXMLDictionary_Tests";
+			productReference = DC2B8534ECB174A87A4D615D2A3BD210 /* Pods_UTXMLDictionary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37F2C960C50D2A1B91367F158EE9359D /* TBXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1AACC60FBBB0072FA4337F6273698E /* Build configuration list for PBXNativeTarget "TBXML" */;
+			buildPhases = (
+				84FCA8C91D348546E8C76A06E83E4C03 /* Sources */,
+				91E9ECDA9245A010A73AA259DF7E5AFD /* Frameworks */,
+				BBE4F3F53B0E94749F6AF805726FC6DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBXML;
+			productName = TBXML;
+			productReference = 555F6C9D9C99F3DF52BD48212663C04A /* TBXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9FF604222F8313839B49DBEC5B25DFA /* UTXMLDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C334B76B58FDED85BE85441C7EA57305 /* Build configuration list for PBXNativeTarget "UTXMLDictionary" */;
+			buildPhases = (
+				5DD35E3CD2E1CE92B533E4AE3887E04B /* Sources */,
+				D869AE78C4368A7C956BA55942224B41 /* Frameworks */,
+				4E6FE4DC8ECF8C9FB06AC091A6C2FC0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F81AA97C6C4BBCADF4E88EA8500B75 /* PBXTargetDependency */,
+			);
+			name = UTXMLDictionary;
+			productName = UTXMLDictionary;
+			productReference = FEED76E4D18C2FE27D871AF41CBC5415 /* UTXMLDictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EEA6E1EDFBFE6F0FF8C9195F7AEA511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E6F7DECA142F5B0C0F7FA0887B369B /* Pods-UTXMLDictionary_Example */,
+				19A13410D58371EC4740D3B077CB1902 /* Pods-UTXMLDictionary_Tests */,
+				37F2C960C50D2A1B91367F158EE9359D /* TBXML */,
+				C9FF604222F8313839B49DBEC5B25DFA /* UTXMLDictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DD35E3CD2E1CE92B533E4AE3887E04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404E8398D45F533345809DBBE9096505 /* UTXMLDictionary-dummy.m in Sources */,
+				C206E765F73D0B131FDAE68C269F84BA /* UTXMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82443EA477F1F6AC5CCF6020FB9912AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBEA381C08D059E6E58FA415E724CCA /* Pods-UTXMLDictionary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84FCA8C91D348546E8C76A06E83E4C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F0227B1A5BC255A49CF051013273E0 /* TBXML+Compression.m in Sources */,
+				8EECFDFA2675729EAD7B7BABD9CF7D08 /* TBXML+HTTP.m in Sources */,
+				53D212E5FAEAC562DA70482923D0932B /* TBXML-dummy.m in Sources */,
+				3E15144319DC505E66E0421FF91DB48E /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50E3F4427D31D8A7CD38C62F667390B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C31E95A216DBF11EC416EF687EBB1C /* Pods-UTXMLDictionary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85BB1F621812EB25BAEF946567D7BFC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UTXMLDictionary;
+			target = C9FF604222F8313839B49DBEC5B25DFA /* UTXMLDictionary */;
+			targetProxy = 4EA90263037869D51D4FFE7DECF6F2BA /* PBXContainerItemProxy */;
+		};
+		D2F81AA97C6C4BBCADF4E88EA8500B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = 37F2C960C50D2A1B91367F158EE9359D /* TBXML */;
+			targetProxy = 932DC635C1408FCFABC9945209EA9375 /* PBXContainerItemProxy */;
+		};
+		FBF7FE3A066AD504D84415F56B5FD96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TBXML;
+			target = 37F2C960C50D2A1B91367F158EE9359D /* TBXML */;
+			targetProxy = 1F9B2CA771FB472AB9E2D253724629D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52D254555D8AC771909B34101C06E918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E7BC33ED551ED7EF2AD6BB5A9FBFEB /* Pods-UTXMLDictionary_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTXMLDictionary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTXMLDictionary_Example/Pods-UTXMLDictionary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTXMLDictionary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		601128364DC87208310C66E260C2A28A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94CDB9413C4471F101B3677DE4E9F72 /* Pods-UTXMLDictionary_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTXMLDictionary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTXMLDictionary_Example/Pods-UTXMLDictionary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTXMLDictionary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		697D98D6D347E9B6F01C9E93AAF47827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100FA7F07473C7028119D4687675078E /* UTXMLDictionary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UTXMLDictionary/UTXMLDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UTXMLDictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UTXMLDictionary/UTXMLDictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UTXMLDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DF265CF9FA575F2BF377D250F1DD0A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FFE368B3500B5AF213611BC60C3486D /* Pods-UTXMLDictionary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTXMLDictionary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTXMLDictionary_Tests/Pods-UTXMLDictionary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTXMLDictionary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FB64973EAA9475624894980721FB989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C89B2F264E0B11BBFCF1528F16CB3D /* Pods-UTXMLDictionary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UTXMLDictionary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UTXMLDictionary_Tests/Pods-UTXMLDictionary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UTXMLDictionary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8388D19A6289821991D718BE3CF13719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410F5DD0180AB7B05FF57CE4AEAE8A4C /* TBXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBXML/TBXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBXML/TBXML.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TBXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DD1EDFFD3FFA0D5F8BA85889D52536C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 410F5DD0180AB7B05FF57CE4AEAE8A4C /* TBXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TBXML/TBXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TBXML/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TBXML/TBXML.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TBXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E496644A56CABDD1F1EBCE543B451BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100FA7F07473C7028119D4687675078E /* UTXMLDictionary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UTXMLDictionary/UTXMLDictionary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UTXMLDictionary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UTXMLDictionary/UTXMLDictionary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UTXMLDictionary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688A7AB97092F5CB57C55C5B12FD222E /* Build configuration list for PBXNativeTarget "Pods-UTXMLDictionary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601128364DC87208310C66E260C2A28A /* Debug */,
+				52D254555D8AC771909B34101C06E918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F61142517E7DA712AA5714B92C9880B /* Build configuration list for PBXNativeTarget "Pods-UTXMLDictionary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB64973EAA9475624894980721FB989 /* Debug */,
+				7DF265CF9FA575F2BF377D250F1DD0A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1AACC60FBBB0072FA4337F6273698E /* Build configuration list for PBXNativeTarget "TBXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8388D19A6289821991D718BE3CF13719 /* Debug */,
+				DD1EDFFD3FFA0D5F8BA85889D52536C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C334B76B58FDED85BE85441C7EA57305 /* Build configuration list for PBXNativeTarget "UTXMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E496644A56CABDD1F1EBCE543B451BB5 /* Debug */,
+				697D98D6D347E9B6F01C9E93AAF47827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
