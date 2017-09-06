@@ -1,0 +1,6 @@
+framework module YCXMLDictionary {
+  umbrella header "YCXMLDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}

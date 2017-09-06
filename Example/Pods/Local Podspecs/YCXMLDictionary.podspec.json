@@ -1,0 +1,29 @@
+{
+  "name": "YCXMLDictionary",
+  "version": "0.1.0",
+  "summary": "TBXML+NSDictionary",
+  "description": "XML to NSDictionary base on TBXML",
+  "homepage": "https://github.com/ungacy/YCXMLDictionary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ungacy": "ungacy@126.com"
+  },
+  "source": {
+    "git": "https://github.com/ungacy/YCXMLDictionary.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/ungacy",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YCXMLDictionary/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "TBXML": [
+
+    ]
+  }
+}

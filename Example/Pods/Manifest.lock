@@ -1,19 +1,19 @@
 PODS:
   - TBXML (1.5)
-  - UTXMLDictionary (0.1.0):
+  - YCXMLDictionary (0.1.0):
     - TBXML
 
 DEPENDENCIES:
-  - UTXMLDictionary (from `../`)
+  - YCXMLDictionary (from `../`)
 
 EXTERNAL SOURCES:
-  UTXMLDictionary:
+  YCXMLDictionary:
     :path: "../"
 
 SPEC CHECKSUMS:
   TBXML: 9f9dadb239f2f2af1dadb87fe43a0ce6e479379a
-  UTXMLDictionary: 54d88f1e7aa40862215a0f976b2fa073e5b1165d
+  YCXMLDictionary: c7d9fbf35b50bf63c395fd17a14045e87e115eae
 
-PODFILE CHECKSUM: 2d71d52063d3acd45517803f69903ca47ce430c3
+PODFILE CHECKSUM: c4e09139bcba437dea0dbde042e3be8542ee4e2d
 
 COCOAPODS: 1.1.1

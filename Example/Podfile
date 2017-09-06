@@ -1,11 +1,5 @@
 use_frameworks!
 
-target 'UTXMLDictionary_Example' do
-  pod 'UTXMLDictionary', :path => '../'
-
-  target 'UTXMLDictionary_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'YCXMLDictionary_Example' do
+  pod 'YCXMLDictionary', :path => '../'
 end
